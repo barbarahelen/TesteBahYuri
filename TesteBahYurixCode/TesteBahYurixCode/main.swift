@@ -9,10 +9,11 @@ import Cocoa
 
 
 func showWelcome() {
-    print("Welcome to my app!")
-    print("By default This prints out a conversion")
+    print("Ola!")
+    print("To com fome")
     print("chart from centimeters to inches, but you")
     print("can also set a custom range if you want.")
 }
 
 showWelcome()
+
