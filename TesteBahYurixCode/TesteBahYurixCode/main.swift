@@ -8,12 +8,11 @@
 import Cocoa
 
 
-func showWelcome() {
-    print("Ola!")
-    print("To com fome")
-    print("chart from centimeters to inches, but you")
-    print("can also set a custom range if you want.")
+func showWelcome(nome: String) -> String{
+    if nome == "Yuri" {
+        return "Gato d+"
+    } else {
+        return "Sai daqui"}
 }
-
-showWelcome()
+print(showWelcome(nome: "Yuri"))
 
